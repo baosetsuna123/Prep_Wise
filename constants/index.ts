@@ -1,4 +1,4 @@
-import { CreateAssistantDTO } from "@vapi-ai/web/dist/api";
+import { CreateAssistantDTO , CreateWorkflowDTO} from "@vapi-ai/web/dist/api";
 import { z } from "zod";
 
 export const mappings = {
@@ -96,6 +96,7 @@ export const mappings = {
   vercel: "vercel",
   "aws amplify": "amplify",
 };
+
 
 export const interviewer: CreateAssistantDTO = {
   name: "Interviewer",
